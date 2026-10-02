@@ -3,7 +3,7 @@ on:
   schedule:
     # 5 min after each M15 candle close, Mon-Fri UTC (GitHub cron can lag
     # a few minutes - that's normal)
-    - cron: "5,20,35,50 * * *1-5"
+    - cron: "5,20,35,50 * * 1-5"
   workflow_dispatch: {}   # manual "Run" button for testing
 
 permissions:
